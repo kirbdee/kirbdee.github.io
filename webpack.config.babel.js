@@ -4,8 +4,8 @@ import path from 'path';
 var config = {
     entry: './js/app.jsx',
     output: {
-        path: __dirname + '/dist', filename: './js/bundle.js',
-        publicPath: __dirname + '/dist/'
+        path: './dist', filename: './js/bundle.js',
+        publicPath: './dist/'
     },
     module: {
         loaders: [
